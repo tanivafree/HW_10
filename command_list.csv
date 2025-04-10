@@ -1,0 +1,50 @@
+    1  c && rm ~/.bash_history
+    2  ls
+    3  cd /d/REP
+    4  cd /d/REP
+    5  cd /e/REP
+    6  c && rm ~/.bash_history
+    7  clear
+    8  git config --global user.name "Tanivafree"
+    9  git config --global user.email "tanivafree@gmail.com"
+   10  c && rm ~/.bash_history
+   11   git config --global user.name "Tetiana Yailenko"
+   12   git config --global user.email "tanivafree@gmail.com"
+   13  git clone https://github.com/tanivafree/-HW_10.git
+   14  cd HW_10
+   15  ls
+   16  cd HW_10
+   17  cd -HW_10
+   18  git status
+   19  ls
+   20  cd HW_10
+   21  cd -HW_10
+   22  cd [-HW_10]
+   23  CLEAR
+   24  git clone https://github.com/tanivafree/HW_10.git
+   25  cd HW_10
+   26  touch text_ignore.txt
+   27  git status
+   28  nano .gitignore
+   29  git status
+   30  git add text_ignore.txt
+   31  git add .
+   32  git status
+   33  git commit -m "Оновила і додала text_ignore.txt"
+   34  touch main_test.txt
+   35  git add .
+   36   git commit -m "Додала main_test.txt"
+   37  git checkout -b develop
+   38  touch develop_test.txt
+   39  git add .
+   40   git commit -m "Створена гілка Develop і файл develop_test.txt"
+   41  nano develop_test.txt
+   42  git status
+   43  git add .
+   44   git commit -m "Редагування main_test.txt"
+   45  git commit --amend -m "Редагування develop_test.txt"
+   46  git switch main
+   47  git checkout main
+   48  git merge develop
+   49  git log
+   50  history > command_list.csv
